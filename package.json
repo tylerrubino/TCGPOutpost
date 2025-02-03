@@ -4,7 +4,9 @@
   "description": "[Jobify](https://jobify.live/)",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "setup-project": "npm i && cd client && npm i",
+    "dev": "nodemon server.js"
   },
   "keywords": [],
   "author": "",
